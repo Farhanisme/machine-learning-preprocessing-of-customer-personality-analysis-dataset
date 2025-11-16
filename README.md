@@ -1,9 +1,13 @@
 # Simulasi Pra-pemrosesan pada Dataset Customer Personality Analysis
 
 > **Nama:** Muhammad Zaky Farhan
+> 
 > **NIM:** 105841110523
+> 
 > **Kelas:** 5AI-A
+> 
 > **Mata Kuliah:** Applied Machine Learning
+> 
 > **Dosen Pengajar:** Runal Rezkiawan, S.Kom., M.T
 
 Repositori ini berisi alur kerja (pipeline) pra-pemrosesan data lengkap untuk dataset "Customer Personality Analysis". Tujuannya adalah untuk mengubah data mentah (`.csv`) menjadi data yang bersih, terstruktur, dan teroptimasi yang siap untuk pemodelan *supervised learning* (Klasifikasi dan Regresi).
@@ -20,31 +24,31 @@ Proyek ini dibagi menjadi dua tahap utama, yang tercermin dalam struktur folder:
 
 ```
 
-preprocessing-simulation-of-customer-personality-analysis-dataset/
+📂preprocessing-simulation-of-customer-personality-analysis-dataset/
 │
 ├── marketing\_campaign.csv
 │
 ├── 📂 Pre-processing I - Data Cleaning & Data Transformation/
 │   ├── preprocessing1.ipynb
 │   ├── Pre-processing I - Documentation Report.pdf
-│   ├── data\_train\_preprocessed.csv
-│   └── data\_test\_preprocessed.csv
+│   ├── data_train_preprocessed.csv
+│   └── data_test_preprocessed.csv
 │
 └── 📂 Pre-processing II - Feature Engineering/
-├── preprocessing2.ipynb
-├── Pre-processing II - Documentation Report.pdf
-├── X\_class\_train\_selected.csv
-├── X\_class\_test\_selected.csv
-├── X\_class\_train\_pca.csv
-├── X\_class\_test\_pca.csv
-├── X\_reg\_train\_selected.csv
-├── X\_reg\_test\_selected.csv
-├── X\_reg\_train\_pca.csv
-├── X\_reg\_test\_pca.csv
-├── y\_class\_train.csv
-├── y\_class\_test.csv
-├── y\_reg\_train.csv
-└── y\_reg\_test.csv
+    ├── preprocessing2.ipynb
+    ├── Pre-processing II - Documentation Report.pdf
+    ├── X_class_train_selected.csv
+    ├── X_class_test_selected.csv
+    ├── X_class_train_pca.csv
+    ├── X_class_test_pca.csv
+    ├── X_reg_train_selected.csv
+    ├── X_reg_test_selected.csv
+    ├── X_reg_train_pca.csv
+    ├── X_reg_test_pca.csv
+    ├── y_class_train.csv
+    ├── y_class_test.csv
+    ├── y_reg_train.csv
+    └── y_reg_test.csv
 
 ```
 
@@ -118,4 +122,5 @@ Bandingkan metrik evaluasi (F1-Score, R-Squared) dari keempat eksperimen ini unt
 3.  Buka dan jalankan `preprocessing1.ipynb` dari awal hingga akhir. Ini akan menghasilkan `data_train_preprocessed.csv` dan `data_test_preprocessed.csv` di dalam folder `Pre-processing I/`.
 4.  Pindahkan kedua file tersebut ke direktori *root* (atau ubah path di *notebook* kedua).
 5.  Buka dan jalankan `preprocessing2.ipynb` dari awal hingga akhir. Ini akan menghasilkan 12 file `.csv` yang siap untuk *modelling*.
-```
+
+---

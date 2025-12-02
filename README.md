@@ -106,9 +106,7 @@ Alur kerja proyek ini bersifat sekuensial, di mana output dari tahap sebelumnya 
   * **Skenario B (PCA):** Menerapkan PCA pada 15 fitur numerik. "Scree Plot" menunjukkan **13 komponen** diperlukan untuk menangkap 95% varians.
   * **Output:** Dataset `X_reg...` dan `y_reg...` (total 6 file).
 
----
-
-## 🚀 Langkah Selanjutnya (Alur Kerja Modelling)
+### Langkah Selanjutnya (Alur Kerja Modelling)
 
 12 file `.csv` yang dihasilkan dari `preprocessing2.ipynb` siap digunakan untuk agenda *modelling* (Klasifikasi dan Regresi).
 
@@ -138,8 +136,6 @@ Bandingkan metrik evaluasi (F1-Score, R-Squared) dari keempat eksperimen ini unt
 3.  **Model & Tuning:**
       * **K-Nearest Neighbors (KNN):** Dioptimasi dengan `GridSearchCV` (mencari k dan metrik jarak) serta *Threshold Tuning* (menggeser batas probabilitas).
       * **Naive Bayes (Gaussian):** Dioptimasi dengan parameter `var_smoothing` untuk menguji hipotesis independensi fitur pada data PCA.
-
----
 
 #### Hasil Eksperimen (Key Findings)
 Evaluasi dilakukan pada data uji murni (tanpa SMOTE) untuk melihat performa dunia nyata:
